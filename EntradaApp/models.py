@@ -1,7 +1,6 @@
 from django.db import models
 
 
-
 class Persona(models.Model):
     RUT = models.CharField(max_length=12,unique=True)
     Nombre = models.CharField(max_length=20)
